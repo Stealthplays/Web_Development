@@ -1,0 +1,47 @@
+h1 {
+    font-family: helvetica, serif;
+    font-size: 80px;
+    color:#EDF2F4;
+;
+
+}
+h2  {
+    font-size: 40px;
+    color:#EDF2F4;
+;
+}
+footer {
+    background-color:#2B2D42 ;
+    padding: 30px;
+    margin-top:10px;
+}
+footer div  a {
+    color:red;
+}
+header{
+    padding: 30px;
+    background-color:#2B2D42 ;
+    margin-bottom:10px;
+}
+
+header p a {
+    color: red;
+
+}
+header p {
+    color: #8D99AE;
+}
+footer h1 {
+    color: #EDF2F4;
+}
+footer a{
+    color:#8D99AE;
+
+}
+footer p {
+    color: #8D99AE;
+}
+section  {
+    padding: 30px;
+    background-color:#8D99AE ;
+}

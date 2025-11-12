@@ -1,0 +1,23 @@
+body{
+    font-family: verdana, serif;
+    font-size: 1.1em;
+}
+h1{
+    font-variant:small-caps;
+    background-color:red;
+}
+ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+ul li a:hover {
+    border-color: red;
+}
+.stippeltjesrand {
+    border: 1px dotted black;
+}

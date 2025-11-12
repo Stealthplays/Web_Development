@@ -1,0 +1,7 @@
+a {
+    background-image: url("download.png");
+    background-position: left center; /* icoon links, verticaal gecentreerd */
+    background-size: 16px 16px; /* 👈 resize the icon */
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
