@@ -1,0 +1,152 @@
+/* ALGEMEEN */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+}
+
+.page {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* TOP-GEBIED */
+.top {
+    position: relative;
+    height: 200px;
+    background: url("images/bgsky3.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #00008b; /* donkerblauw */
+}
+
+.top-title-main {
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.top-title-sub {
+    font-size: 240%;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+.plane-hero {
+    position: absolute;
+    right: 250px;
+    bottom: 60px;
+    z-index: 2; /* vóór de tekst */
+}
+
+/* MAIN + NEWS LAYOUT */
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* MAIN-GEDEELTE */
+.main {
+    flex: 0 0 75%;
+    margin-right: 10px; /* ruimte tussen main en nieuws */
+}
+
+/* INTRODUCTIE */
+.introduction {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: justify;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    float: left;
+    margin: 20px 20px 0 20px; /* 20px boven en 20px aan beide zijden */
+}
+
+.highlight {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* GALLERY */
+.gallery {
+    background-color: #999999;
+    padding: 20px 0 20px 20px;
+    overflow: hidden;
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px dotted #999999;
+    float: left;
+    margin: 0 20px 20px 0; /* 20px tussen kaders en randen */
+    box-sizing: content-box;
+}
+
+.photo img {
+    width: 180px;
+    height: 180px;
+    display: block;
+}
+
+/* NEWS-GEBIED */
+.news {
+    flex: 0 0 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    color: #666666;
+    font-size: 90%;
+    padding: 10px;
+}
+
+.news-block + .news-block {
+    margin-top: 10px;
+}
+
+.news h3 {
+    margin: 0 -10px 5px -10px;
+    padding: 4px 0;
+    background-color: blue;
+    color: #ffffff;
+    text-align: center;
+    font-size: 120%;
+}
+
+/* BOTTOM-GEBIED */
+.bottom {
+    background-color: #666666;
+    color: #ffffff;
+    line-height: 2em;
+    display: flex;
+    padding: 20px 0;
+}
+
+.bottom-block {
+    padding-left: 120px;
+}
+
+.bottom a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    color: red;
+}
+
+/* COPYRIGHT */
+.copyright {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,42 @@
+/* Algemene opmaak */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    font-size: 1.25em;          /* lettergrootte 1.25em */
+}
+
+/* Elk artikel krijgt marge links/rechts én tussen de artikels */
+article {
+    margin: 10px;               /* 10px marge rondom (dus ook tussen artikels) */
+    border: 1px solid #000;     /* optioneel, maar dit lijkt op de voorbeeldlayout */
+    padding: 10px 10px 0 10px;
+}
+
+/* Float-afhandeling zodat artikels netjes onder elkaar blijven */
+article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Afbeeldingen in artikels: basisinstellingen */
+article img {
+    display: block;
+    max-width: 180px;           /* zodat ze mooi blijven zoals in het voorbeeld */
+    height: auto;
+}
+
+/* Oneven artikels: afbeelding links + marge van 10px met de tekst */
+article:nth-of-type(odd) img {
+    float: left;
+    margin: 0 10px 10px 0;      /* ruimte tussen foto en tekst (rechts) */
+}
+
+/* Even artikels: afbeelding rechts + marge van 10px met de tekst */
+article:nth-of-type(even) img {
+    float: right;
+    margin: 0 0 10px 10px;      /* ruimte tussen foto en tekst (links) */
+}
