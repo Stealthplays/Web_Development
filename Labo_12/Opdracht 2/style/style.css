@@ -1,0 +1,54 @@
+html {
+    background-color: #333;
+    font-family: helvetica;
+}
+
+* {
+    padding: 10px;
+}
+header,footer{
+
+    background: #ddaa00;
+    color: white;
+    text-align: center;
+
+}
+nav{
+display: flex;
+    background-color: #ccc;
+    color:#ddaa00;
+}
+nav a{
+    margin: 5px;
+    padding: 5px 2px;
+    border:1px #ccc
+}
+main{
+    background-color: grey;
+}
+body{
+     Font-size: 1em  ;
+    font-family: helvetica;
+    margin: 5px;
+}
+section{
+    margin: 5px;
+    border:1px #333;
+}
+h1{
+    margin: 0px;
+}
+img{
+    padding: 0px
+}
+.container{
+   
+
+
+
+
+}
+@media screen and (max-width: 700px) {
+
+}
+
