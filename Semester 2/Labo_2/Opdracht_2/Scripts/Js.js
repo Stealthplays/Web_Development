@@ -9,9 +9,9 @@ for (let i=0;i<familieLeden.length;i+=2){
 
     familieLeden.push(gegevenNaam)
 }
-gegevenNaam=prompt("Enter your extra name","f")
-geefNaam(gegevenNaam);
-    console.log(familieLeden.join("-"));
+//gegevenNaam=prompt("Enter your extra name","f")
+//geefNaam(gegevenNaam);
+  //  console.log(familieLeden.join("-"));
 
 
 
